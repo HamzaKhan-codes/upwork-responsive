@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    overflow-x: hidden;
+}
+
+
+/* Navbar */
+
+.search{
+    border-radius: 100px;
+}
+
+.login{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-btn{
+    background-color: rgb(41, 150, 41);
+    color: white;
+    border-radius: 30px;
+    width: 50%;
+    margin-left: 10px;
+}
+
+hr{
+    margin: 0px;
+}
+
+.li{
+    display: inline-block;
+}
+
+.link{
+    /* margin-top: 10px; */
+    margin: 3px;
+    text-decoration: none;
+
+}
+
+.links{
+    margin-top: 18px;
+}
+
+/* Section */
+
+.section-btn{
+    background-color: rgb(41, 150, 41);
+    color: white;
+    border-radius: 30px;
+    width: 30%;
+    margin-left: 15px;
+}
+
+.heading{
+    margin: 20px;
+    /* margin-left: ; */
+    margin-top: 50px;
+    font-size: 80px;
+    color: rgb(41, 150, 41); 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.para{
+    /* margin-left: 50px; */
+    margin: 20px;
+    margin-top: 20px;
+    font-size: larger;
+}
+
+.section-img{
+    width: 70%;
+    margin-top: 5rem;
+}
+
+/* 2nd Section  */
+
+.logos{
+    width: 8%;
+    margin-left: 100px;
+}
+
+h3{
+    margin-top: 80px;
+    margin-left: 110px;
+}
+
+/* Third Section Short  */
+
+.third{
+    margin: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .short{
+      width: 250%;
+    }
+  }
+
+  .third-img{
+    padding-right: 200px;
+  }
+
+
+  /* Talent Section  */
+
+
+  .heading2{
+    margin: 20px;
+    margin-left: 30px;
+    margin-top: 50px;
+    font-size: 2rem;
+    color: rgb(41, 150, 41); 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+  }
+  
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    /* Add a width or max-width to the container */
+    width: 100%;
+  }
+
+  @media screen and (max-width: 768px) {
+    .container-flex{
+        flex-direction: column; /* Change direction for smaller screens */
+        flex-wrap: wrap;
+    }
+}
+
+  .box{
+    /* padding: 15px; */
+    min-width: 270px;
+    height: 160px;
+    border: 1px solid rgb(235, 225, 225);
+    background-color: rgb(221, 221, 221);
+    border-radius: 10px;
+  }
+
+  .box:hover{
+    flex-wrap: wrap;
+    /* padding: 15px; */
+    width: 270px;
+    height: 160px;
+    border: 2px solid grey;
+    background-color: rgb(117, 250, 168);
+    transition: 0.5s;
+  }
+
+  .fa-star{
+    color: green;
+  }
+
+
+  /* Extra Section  */
+
+  .whole{
+    margin-top: 30px;
+    margin-left: 200px;
+    width: 75%;
+    height: 530px;
+    border: 1px solid grey;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+p{
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.btnhaha{
+    background-color: white;
+    width: 150px;
+    height: 40px;
+    color: black;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin-left: 30px;
+}
+.btnhaha:hover{
+    background-color: black;
+    width: 150px;
+    height: 40px;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin-left: 30px;
+}
+
+h1,h2{
+    margin-left: 30px;
+    font-size:xx-large;
+}
+h2, p{
+    color: white;
+}
+
+.whole{
+    background-color: rgb(26, 78, 85);
+}
+
+.upwork{
+    /* position: absolute; */
+    /* width: 350px; */
+    height:529px;
+    top: 31px;
+    margin-right: 100px;
+
+
+}
+
+.green{
+    color: cyan;
+}
+
+.this{
+    color: white;
+}
+
+
+@media screen and (max-width: 768px) {
+    .upwork{
+        display: none;
+    }
+
+    .whole{
+        width: 120%;
+        margin-left: -10px;
+    }
+
+    .extra{
+        margin: 0 auto;
+    }
+
+
+    .h1,h2,p{
+        font-size: small;
+    }
+    
+
+    .first-logo{
+        width: 30%;
+    }
+}
